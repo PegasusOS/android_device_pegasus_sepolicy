@@ -23,8 +23,7 @@ BOARD_PLAT_PRIVATE_SEPOLICY_DIR += \
 
 ifeq ($(TARGET_USES_PREBUILT_VENDOR_SEPOLICY), true)
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += \
-    device/pegasus/sepolicy/common/dynamic \
-    device/pegasus/sepolicy/common/system
+    device/pegasus/sepolicy/common/dynamic
 else
 BOARD_VENDOR_SEPOLICY_DIRS += \
     device/pegasus/sepolicy/common/dynamic \
